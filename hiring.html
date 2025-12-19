@@ -26,9 +26,10 @@
 <ul class="nav-list">
 <li><a href="index.html">Home</a></li>
 <li><a href="services.html">Services</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html">Contact Us</a></li>
 <li><a href="programming.html">Programming Services</a></li>
 <li><a aria-current="page" href="hiring.html">Hiring</a></li>
+<li><a href="accessibility.html">Accessibility</a></li>
 </ul>
 </nav>
 </div>
@@ -55,8 +56,16 @@
 </section>
 </main>
 <footer role="contentinfo">
-<p>© Access Able Computing LLC</p>
+  <p id="copyright"></p>
 </footer>
 <script src="js/accessibility.js"></script>
+<script>
+(function () {
+  var el = document.getElementById("copyright");
+  if (!el) return;
+  var year = new Date().getFullYear();
+  el.textContent = "© " + year + " Access Able Computing LLC. All rights reserved.";
+})();
+</script>
 </body>
 </html>

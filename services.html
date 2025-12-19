@@ -26,9 +26,10 @@
 <ul class="nav-list">
 <li><a href="index.html">Home</a></li>
 <li><a aria-current="page" href="services.html">Services</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html">Contact Us</a></li>
 <li><a href="programming.html">Programming Services</a></li>
 <li><a href="hiring.html">Hiring</a></li>
+<li><a href="accessibility.html">Accessibility</a></li>
 </ul>
 </nav>
 </div>
@@ -40,24 +41,36 @@
 <button aria-label="Read page content aloud" id="read-aloud">🔊</button>
 </div>
 <main id="main-content" role="main" tabindex="-1">
+
 <section aria-labelledby="services-title">
 <h1 id="services-title">Our Services</h1>
-<p>Access Able Computing LLC offers adaptive technology training tailored to individual needs.</p>
+<p>I offer adaptive computer and technology training for blind and low-vision individuals, as well as technology support for sighted users who want clearer, more accessible ways to work.</p>
 <ul>
-<li><strong>JAWS screen reader training</strong> (primary focus)</li>
-<li>One-on-one instruction</li>
-<li>Small group training</li>
-<li>Remote training sessions</li>
-<li>School-based student support</li>
-<li>Assistive technology and accessibility tools</li>
+<li><strong>One-on-one training</strong> tailored to each learner</li>
+<li><strong>Small-group instruction</strong> for classrooms, agencies, or community programs</li>
+<li><strong>Remote sessions</strong> (primary delivery) and <strong>in-person support</strong> when needed</li>
+<li><strong>School-based support</strong> for K–12 and transition-age students</li>
+<li><strong>Screen readers and accessibility</strong> (JAWS primary focus; also other tools as needed)</li>
+<li><strong>Magnification tools</strong> and low-vision productivity strategies</li>
+<li><strong>Mobile devices</strong> (iPhone/iPad accessibility and real-world skills)</li>
+<li><strong>Windows support</strong> for both sighted and blind users (setup, productivity, troubleshooting, and accessibility settings)</li>
+<li><strong>Real-world technology skills</strong> for school, work, and daily life</li>
 </ul>
-<p>The business owner is a <strong>JAWS 2025 Certified Professional</strong>.</p>
-<p>Training is offered both remotely and in person, with remote instruction being the preferred delivery method.</p>
+<p>I collaborate with schools, blindness organizations, rehabilitation agencies, and accessibility-focused nonprofits to support learners across northern Indiana.</p>
 </section>
+
 </main>
 <footer role="contentinfo">
-<p>© Access Able Computing LLC</p>
+  <p id="copyright"></p>
 </footer>
 <script src="js/accessibility.js"></script>
+<script>
+(function () {
+  var el = document.getElementById("copyright");
+  if (!el) return;
+  var year = new Date().getFullYear();
+  el.textContent = "© " + year + " Access Able Computing LLC. All rights reserved.";
+})();
+</script>
 </body>
 </html>
