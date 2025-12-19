@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -13,40 +14,37 @@
 <meta content="website" property="og:type"/>
 <meta content="https://jeffroth67-eng.github.io/AccessAbleComputing/contact.html" property="og:url"/>
 <link href="css/style.css" rel="stylesheet"/>
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Access Able Computing LLC",
-  "url": "https://jeffroth67-eng.github.io/AccessAbleComputing/contact.html",
-  "description": "Adaptive technology training and accessibility-focused support for blind and low-vision learners.",
-  "areaServed": [
-    {
-      "@type": "State",
-      "name": "Indiana"
-    },
-    {
-      "@type": "City",
-      "name": "Mishawaka"
-    },
-    {
-      "@type": "City",
-      "name": "South Bend"
-    }
-  ],
-  "serviceType": [
-    "JAWS screen reader training",
-    "Assistive technology training",
-    "Accessibility support",
-    "Programming services"
-  ]
-}</script></head>
-<body><a class="skip-link" href="#main-nav">Skip to navigation</a><a class="skip-link" href="#main-content">Skip to main content</a><a class="skip-link" href="#site-footer">Skip to footer</a><header aria-labelledby="site-header-title" role="banner"><span class="sr-only" id="site-header-title">Site header</span><div class="header-top"><a aria-label="Access Able Computing LLC home" class="logo-link" href="index.html"><img alt="Access Able Computing LLC logo" class="logo" src="assets/Adaptive Able Computing Logo.png"/></a><div class="site-branding"><a class="site-name" href="index.html">Access Able Computing LLC</a><p class="tagline">Accessible technology training by a blind professional with 30+ years of IT experience.</p></div><a aria-label="Jump to accessibility tools" class="a11y-tools-link" href="#a11y-tools">Accessibility tools</a></div><nav aria-label="Main navigation" id="main-nav"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a aria-current="page" href="contact.html">Contact</a></li><li><a href="programming.html">Programming Services</a></li><li><a href="hiring.html">Hiring</a></li><li><a href="accessibility.html">Accessibility Statement</a></li></ul></nav></header>
-<main aria-labelledby="page-title" id="main-content" tabindex="-1"><section aria-label="Accessibility tools" class="accessibility-tools accessibility-tools--main" id="a11y-tools"><h2 class="sr-only">Accessibility tools</h2><p class="sr-only" id="a11y-tools-help-main">Accessibility tools: Use Increase font and Decrease font to change text size. Use High contrast to toggle high-contrast mode. Use Read aloud to have the main content spoken.</p><button aria-describedby="a11y-tools-help-main" aria-label="Increase font size" id="increase-font" type="button">A+</button><button aria-describedby="a11y-tools-help-main" aria-label="Decrease font size" id="decrease-font" type="button">A-</button><button aria-describedby="a11y-tools-help-main" aria-label="Toggle high-contrast mode" id="toggle-contrast" type="button">High Contrast</button><button aria-describedby="a11y-tools-help-main" aria-label="Read page content aloud" id="read-aloud" type="button">Read Aloud</button></section>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header aria-label="Site Header" role="banner">
+<div class="header-container">
+<img alt="Access Able Computing LLC. The logo is a rectangle divided diagonally from the bottom-left corner to the top-right corner, forming two triangles. The top triangle is red and the bottom triangle is white. Below the rectangle are the words ‘Access Able Computing LLC.’" class="logo" src="assets/Adaptive Able Computing Logo.png"/>
+<span class="sr-only">Access Able Computing LLC. The logo is a rectangle divided diagonally from the bottom-left corner to the top-right corner, forming two triangles. The top triangle is red and the bottom triangle is white. Below the rectangle are the words ‘Access Able Computing LLC.’</span>
+<p aria-label="Access Able Computing LLC" class="site-title">Access Able Computing LLC</p>
+<nav aria-label="Main Navigation">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a aria-current="page" href="contact.html">Contact</a></li>
+<li><a href="programming.html">Programming Services</a></li>
+<li><a href="hiring.html">Hiring</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<div aria-label="Accessibility Tools" class="accessibility-tools">
+<button aria-label="Increase font size" id="increase-font">A+</button>
+<button aria-label="Decrease font size" id="decrease-font">A-</button>
+<button aria-label="Toggle high-contrast mode" id="toggle-contrast">Contrast</button>
+<button aria-label="Read page content aloud" id="read-aloud">🔊</button>
+</div>
+<main id="main-content" role="main" tabindex="-1">
 <section aria-labelledby="contact-title">
-<h1 id="page-title">Contact Us</h1><p class="service-delivery"><strong>Service delivery:</strong> In person and remotely.</p>
+<h1 id="contact-title">Contact Us</h1>
 <p><strong>Phone:</strong> <a href="tel:5743180194">(574) 318-0194</a><br/>
 			Call this number to speak directly with Access Able Computing LLC for questions, service requests, or support. If you prefer, you may use the contact form below.</p>
-<form action="https://formspree.io/f/mnqeywqg" aria-label="Contact form" method="POST">
+<form action="https://formspree.io/f/xqezajle" aria-label="Contact form" method="POST"><input name="_subject" type="hidden" value="Access Able Computing – Contact Form"/>
 <div>
 <label for="name">Name</label>
 <input autocomplete="name" id="name" name="name" required="" type="text"/>
@@ -72,11 +70,14 @@
 <p class="sr-only">Accessible audio option is available for reCAPTCHA.</p>
 <p class="recaptcha-note">If you see an error about the site owner, it means the reCAPTCHA is not yet fully set up for this domain. The form will still send your message, but reCAPTCHA protection may not be active until the site is published and the domain is registered with Google reCAPTCHA.</p>
 </div>
-<button type="submit">Send Message</button>
+<div aria-live="polite" class="form-status" id="form-status" role="status"></div><button type="submit">Send Message</button>
 </form>
-<footer aria-labelledby="footer-title" id="site-footer" role="contentinfo"><h2 class="sr-only" id="footer-title">Footer</h2><nav aria-label="Footer navigation" class="footer-nav"><ul class="footer-nav-list"><li><a href="accessibility.html">Accessibility Statement</a></li><li><a href="contact.html">Contact</a></li></ul></nav><p class="footer-copyright">© <span id="copyright-year"></span> Access Able Computing LLC. All rights reserved.</p></footer><script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
 </section>
 </main>
-<script src="js/accessibility.js"></script>
+<footer role="contentinfo">
+<p>© Access Able Computing LLC</p>
+</footer>
+<script src="js/accessibility.js"></script><script src="js/formspree.js"></script>
 </body>
 </html>
