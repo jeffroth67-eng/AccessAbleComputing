@@ -49,6 +49,16 @@ header[role="banner"] {
   border-bottom: 2px solid #000;
 }
 
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 2vw;
+  flex-wrap: wrap;
+}
+
 .header-top {
   display: flex;
   align-items: center;
@@ -90,6 +100,11 @@ header[role="banner"] {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  justify-content: flex-end;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem 2vw;
+  flex-wrap: wrap;
 }
 .accessibility-tools button {
   background: #000;
@@ -254,4 +269,78 @@ footer {
   padding: 0.75rem;
   border: 2px solid currentColor;
   border-radius: 0.75rem;
+}
+
+/* Services page readability */
+.services-list {
+  border: 1px solid #cfcfcf;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+@media (min-width: 900px) {
+  .services-list {
+    columns: 2;
+    column-gap: 2rem;
+  }
+  .services-list li {
+    break-inside: avoid;
+  }
+}
+
+.form-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+
+/* Layout polish: header container alignment */
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
+.site-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.logo {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Accessibility tools: align with page width */
+.accessibility-tools {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+/* Services page: scannable blocks */
+.service-cards {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.service-card {
+  border: 2px solid #000;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.service-card h2 {
+  margin-top: 0;
+}
+
+/* Contact form note */
+.form-note {
+  margin-top: 0.75rem;
 }

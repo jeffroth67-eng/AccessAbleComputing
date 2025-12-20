@@ -68,13 +68,14 @@
     });
   }
 
-  // Dynamic copyright year
-  const yearEl = document.getElementById("copyright-year");
-  if (yearEl) {
-    yearEl.textContent = String(new Date().getFullYear());
+  // Dynamic copyright text
+  const copyrightEl = document.getElementById("copyright");
+  if (copyrightEl) {
+    const year = new Date().getFullYear();
+    copyrightEl.textContent = `© ${year} Access Able Computing LLC. All rights reserved.`;
   }
 
-  // High-contrast mode CSS (kept to preserve existing behavior)
+// High-contrast mode CSS (kept to preserve existing behavior)
   const style = document.createElement("style");
   style.innerHTML = `
     body.high-contrast {

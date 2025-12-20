@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -17,25 +16,10 @@
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header aria-label="Site Header" role="banner">
-<div class="header-container">
-<img alt="Access Able Computing LLC. The logo is a rectangle divided diagonally from the bottom-left corner to the top-right corner, forming two triangles. The top triangle is red and the bottom triangle is white. Below the rectangle are the words ‘Access Able Computing LLC.’" class="logo" src="assets/Adaptive Able Computing Logo.png"/>
-<span class="sr-only">Access Able Computing LLC. The logo is a rectangle divided diagonally from the bottom-left corner to the top-right corner, forming two triangles. The top triangle is red and the bottom triangle is white. Below the rectangle are the words ‘Access Able Computing LLC.’</span>
-<p aria-label="Access Able Computing LLC" class="site-title">Access Able Computing LLC</p>
-<nav aria-label="Main Navigation">
-<ul class="nav-list">
-<li><a href="index.html">Home</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a aria-current="page" href="contact.html">Contact</a></li>
-<li><a href="programming.html">Programming Services</a></li>
-<li><a href="hiring.html">Hiring</a></li>
-<li><a href="accessibility.html">Accessibility</a></li>
-</ul>
-</nav>
-</div>
-</header>
+<header aria-label="Site Header" role="banner"><div class="header-container"><img alt="Access Able Computing LLC logo" class="logo" src="assets/Adaptive Able Computing Logo.png"/><p aria-label="Access Able Computing LLC" class="site-title">Access Able Computing LLC</p><nav aria-label="Main Navigation"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a aria-current="page" href="contact.html">Contact Us</a></li><li><a href="programming.html">Programming Services</a></li><li><a href="hiring.html">Hiring</a></li><li><a href="accessibility.html">Accessibility</a></li></ul></nav></div></header>
 <div aria-label="Accessibility Tools" class="accessibility-tools">
 <button aria-label="Increase font size" id="increase-font">A+</button>
+<p class="form-note">We typically respond within 1–2 business days. Your information is used only to respond to your request.</p>
 <button aria-label="Decrease font size" id="decrease-font">A-</button>
 <button aria-label="Toggle high-contrast mode" id="toggle-contrast">Contrast</button>
 <button aria-label="Read page content aloud" id="read-aloud">🔊</button>
@@ -44,7 +28,6 @@
 <section aria-labelledby="contact-title">
 <h1 id="contact-title">Contact Us</h1>
 <p class="tagline">With over 30 years of professional IT experience and lived experience as a blind professional, I provide practical, real-world technology training grounded in both technical expertise and accessibility insight.</p>
-
 <p><strong>Phone:</strong> <a href="tel:5743180194">(574) 318-0194</a><br/>
 			Call this number to speak directly with Access Able Computing LLC for questions, service requests, or support. If you prefer, you may use the contact form below.</p>
 <form action="https://formspree.io/f/xqezajle" aria-label="Contact form" method="POST"><input name="_subject" type="hidden" value="Access Able Computing – Contact Form"/>
@@ -62,7 +45,7 @@
 </div>
 <div>
 <label for="phone">Phone Number</label>
-<input autocomplete="tel" id="phone" name="phone" required="" type="tel"/>
+<input autocomplete="tel" id="phone" name="phone" type="tel"/>
 </div>
 <div>
 <label for="message">Message</label>
@@ -72,13 +55,13 @@
 <div aria-label="Google reCAPTCHA" class="g-recaptcha" data-sitekey="6LckvSssAAAAAFWcqlDSP_hn757UznJ1kTF8GjF_"></div>
 <p class="sr-only">Accessible audio option is available for reCAPTCHA.</p>
 </div>
-<div aria-live="polite" class="form-status" id="form-status" role="status"></div><button type="submit">Send Message</button>
+<div aria-live="polite" class="form-status" id="form-status" role="status"></div><button type="submit">Send Message</button><p class="form-note">We typically respond within 1–2 business days. Your information is used only to respond to your request.</p>
 </form>
 <script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
 </section>
 </main>
 <footer role="contentinfo">
-  <p id="copyright"></p>
+<p id="copyright"></p>
 </footer>
 <script src="js/accessibility.js"></script><script src="js/formspree.js"></script>
 <script>
