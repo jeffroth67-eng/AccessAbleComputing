@@ -31,9 +31,10 @@
         fill="#000000"
         dominant-baseline="text-after-edge">™</text>
 
-  <!-- Business Name Text: centered below rectangle -->
-  <text x="760.0" y="770"
-        text-anchor="middle"
+  <!-- Business Name Text: stretched to match rectangle width -->
+  <text x="160" y="770"
+        text-anchor="start"
+        textLength="1200" lengthAdjust="spacingAndGlyphs"
         font-family="Arial, Helvetica, Verdana, sans-serif" font-size="140" font-weight="700"
         fill="#000000">Adaptive Able Computing LLC</text>
 </svg>
