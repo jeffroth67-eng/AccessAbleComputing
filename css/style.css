@@ -11,7 +11,6 @@ html {
 }
 
 body {
-
   background: #f6f2d6; /* softer than pure white/yellow */
   color: #111;
   font-family: Arial, Helvetica, Verdana, sans-serif;
@@ -19,9 +18,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #F7F4EE;
 }
-
 
 /* Skip links (visible on focus) */
 .skip-link {
@@ -347,3 +344,16 @@ footer {
 .form-note {
   margin-top: 0.75rem;
 }
+
+
+/* --- Logo sizing patch (prevents tiny/clipped logo when using a wide rectangular PNG) --- */
+header .logo {
+  max-height: 80px;
+  height: auto;
+  width: auto;
+  max-width: 320px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  display: block;
+}
+
