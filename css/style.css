@@ -379,3 +379,7 @@ header img[alt*="Logo" i], .logo img {
   line-height: 1.3;
   margin-top: 0.25rem;
 }
+
+
+/* Header title removed */
+.site-title { display: none !important; }
