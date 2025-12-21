@@ -359,9 +359,12 @@ header .logo {
 
 
 
-/* Logo: keep SVG/PNG proportional */
+
+
+/* Logo: keep SVG/PNG proportional and readable */
 header img[alt*="Logo" i], .logo img {
-  max-height: 64px;
+  max-height: 90px;
   width: auto;
   height: auto;
+  display: block;
 }
