@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-hidden="true">
+  <rect x="0" y="0" width="240" height="120" fill="none"/>
+  <g>
+    <rect x="40" y="45" width="140" height="35" rx="6" fill="#ffd34d" stroke="#111" stroke-width="4"/>
+    <path d="M70 45 L90 20 H150 L170 45 Z" fill="#ffd34d" stroke="#111" stroke-width="4" />
+    <rect x="95" y="26" width="40" height="18" rx="3" fill="#dff3ff" stroke="#111" stroke-width="3"/>
+    <rect x="138" y="26" width="22" height="18" rx="3" fill="#dff3ff" stroke="#111" stroke-width="3"/>
+    <rect x="110" y="53" width="40" height="18" rx="4" fill="#111"/>
+    <text x="130" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#fff">TAXI</text>
+    <circle cx="75" cy="88" r="14" fill="#111"/>
+    <circle cx="75" cy="88" r="7" fill="#fff"/>
+    <circle cx="165" cy="88" r="14" fill="#111"/>
+    <circle cx="165" cy="88" r="7" fill="#fff"/>
+    <rect x="175" y="58" width="22" height="12" rx="3" fill="#ff6b6b" stroke="#111" stroke-width="3"/>
+    <line x1="40" y1="80" x2="180" y2="80" stroke="#111" stroke-width="4"/>
+  </g>
+</svg>
